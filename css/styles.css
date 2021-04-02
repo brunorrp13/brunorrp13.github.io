@@ -84,23 +84,23 @@
     font-size: 30px;
 }
 
-#email-container {
+#contact-container {
     display: flex;
     justify-content: center;
 }
 
-#email-container ion-icon,
-#email-container a{
+#contact-container ion-icon,
+#contact-container a{
     flex: 1 1 0;
 }
 
-#email-container a {
+#contact-container a {
     color: var(--main-text-color);
     text-decoration: none;
     max-width: 225px;
 }
 
-#email-container ion-icon {
+#contact-container ion-icon {
     color: var(--main-color);
     font-size: 20px;
     margin-right: 5px;
@@ -136,7 +136,7 @@
     text-decoration: none;
     transition: .5s;
     margin: 25px 0;
-    padding: 10px 8px;
+    padding: 8px 6px;
     width: 150px;
     text-align: center;
     display: flex;   
