@@ -120,7 +120,7 @@
     font-weight: bold;
 }
 
-.description{
+.description, .description2{
     max-width: 75%;
     margin-bottom: 10px;
     text-align: justify;
@@ -199,26 +199,21 @@
         min-height: auto;
         border-right: none;
         border-bottom: 5px solid var(--bio-border-color);
-    }
+        text-align: center;
+  }
+  
+  .description {
+      margin: auto;
+      text-align: center;
+  }
 
     #about-container {
         flex: 1 1 20%;
         min-height: 100vh; 
-        text-align: center;
-    }
-
-    
-    #about-container {
-        flex: 1 1 20%;
-        min-height: 100vh; 
-        text-align: center;
-    }
-
-    #about-contatiner .description {
+        border-right: none;
         text-align: center;
         vertical-align: center;
     }
-    
 
     #btn-projects{
         margin: 20px auto;
