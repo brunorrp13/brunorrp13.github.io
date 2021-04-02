@@ -214,9 +214,8 @@
         text-align: center;
     }
 
-    #about-contatiner #description {
+    #about-contatiner .description {
         text-align: center;
-        vertical-align: center;
     }
     
 
