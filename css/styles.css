@@ -4,7 +4,7 @@
     margin: 0;
     font-family: "Roboto", sans-serif;
     box-sizing: border-box;
-}
+}   
 
 /* Variables */
 
@@ -84,23 +84,23 @@
     font-size: 30px;
 }
 
-#email-container {
+#contact-container {
     display: flex;
     justify-content: center;
 }
 
-#email-container ion-icon,
-#email-container a{
+#contact-container ion-icon,
+#contact-container a {
     flex: 1 1 0;
 }
 
-#email-container a {
+#contact-container a {
     color: var(--main-text-color);
     text-decoration: none;
     max-width: 225px;
 }
 
-#email-container ion-icon {
+#contact-container ion-icon {
     color: var(--main-color);
     font-size: 20px;
     margin-right: 5px;
