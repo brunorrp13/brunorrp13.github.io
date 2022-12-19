@@ -190,6 +190,7 @@
 
 #video{
     margin-top: 5px;
+    margin-bottom: 10px;
 }
 
 /* Mobile */
@@ -214,13 +215,6 @@
       margin: auto;
       text-align: center;
   }
-
-  .description3 {
-    margin: auto;
-    text-align: center;
-    font-weight: bold;
-    margin-top: 20px;
-}
 
     #about-container {
         flex: 1 1 20%;
